@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d0cb5889-f57b-4bac-af5a-109b3b403e23}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="og_name" select="1" icon="1" preview="1">
+        <row name="result" id="og_victimchecklistid">
+          <cell name="og_case" width="272" />
+          <cell name="og_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="og_victimchecklist">
+          <attribute name="og_victimchecklistid" />
+          <attribute name="og_name" />
+          <attribute name="createdon" />
+          <order attribute="og_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="og_case" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Victim Checklists" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

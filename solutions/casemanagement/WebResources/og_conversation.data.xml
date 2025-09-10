@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{4bfd8801-ea6b-f011-bec2-6045bd03777c}</WebResourceId>
+  <Name>og_conversation</Name>
+  <DisplayName>conversation</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>1.0.7</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/og_conversation4BFD8801-EA6B-F011-BEC2-6045BD03777C</FileName>
+</WebResource>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7a58c772-c36b-f011-bec2-6045bd03777c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="fullname" select="1" icon="1" preview="1">
+        <row name="result" id="contactid">
+          <cell name="fullname" width="200" />
+          <cell name="emailaddress1" width="200" />
+          <cell name="firstname" width="124" />
+          <cell name="lastname" width="121" />
+          <cell name="telephone1" width="129" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="contact">&lt;attribute name="fullname" /&gt;&lt;attribute name="jobtitle" /&gt;&lt;attribute name="mobilephone" /&gt;&lt;attribute name="emailaddress1" /&gt;&lt;attribute name="birthdate" /&gt;
+        <attribute name="fullname" /><attribute name="emailaddress1" /><attribute name="contactid" /><attribute name="firstname" /><attribute name="lastname" /><attribute name="telephone1" /><filter type="and"><condition attribute="og_contacttype" operator="eq" value="125200003" /></filter></entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.7</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Detectives" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

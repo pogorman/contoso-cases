@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b1a1c19c-7129-4781-9aa1-784f96aad368}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{8bd4f81c-df95-4966-b3eb-c0229711b5d4}" IsUserDefined="1" name="GeneralMainTab">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2946f378-72ad-47c2-9b9d-a67221544035}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eb2800ae-facc-4c20-8906-b31375fae5ba}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Case ID" languagecode="1033" />
+                        </labels>
+                        <control id="og_caseid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_caseid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7f518318-a4da-4b9c-b70b-58da7cbb1c7c}">
+                        <labels>
+                          <label description="Case Name" languagecode="1033" />
+                        </labels>
+                        <control id="og_casename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="og_casename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9532fc89-8d97-469e-aa16-73e0052592be}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f95f22a4-fb8f-4160-b5e8-dc5295bee727}" locklevel="0" colspan="1" rowspan="4">
+                        <labels>
+                          <label description="Case Description" languagecode="1033" />
+                        </labels>
+                        <control id="cree6_casedescription" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="cree6_casedescription" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{28c9ddd4-86af-44b7-9c6e-8f54d7947c98}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="og_description" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04d462dd-c9b2-4666-9e7b-1ea60b0b37ae}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Case Type" languagecode="1033" />
+                        </labels>
+                        <control id="og_casetype" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="og_casetype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e56a09e7-a355-4c45-acb1-2801c14f8d6b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="_section_201" id="4feb2101-fccc-4715-a493-e8ab00113201" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{0aa1a772-7b8c-4ea0-a609-d3d5094b19d1}" rowspan="15" colspan="1">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="_section_190" id="ea35a162-2b03-4391-84f0-c53caf3d1d22" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b20376b3-dda5-5170-0e62-91cd982c63a4}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Authority Decision 1" languagecode="1033" />
+                        </labels>
+                        <control id="og_authoritydecision1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="og_authoritydecision1" disabled="false" uniqueid="{77dba300-2078-523b-333c-0b0008ca6367}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dcee7892-9fce-44ec-99f1-97b3f653bffd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7aaba18-8efe-44d7-a161-535578e794c3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73b31275-46ab-4aab-9e50-cd74ab275c7c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0fbe8cfd-8222-4e74-924c-632b47c636aa}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{80037152-e3f7-4c23-b4a6-f54e22eb4057}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{456fdb77-71a0-4d9b-9040-c7232569288c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell rowspan="12" id="{2461e6b0-1cc9-4ae2-8efb-86f793d41e4d}" showlabel="false" colspan="1" auto="true">
+                        <labels>
+                          <label description="Case (Custom) Form Web Resource" languagecode="1033" />
+                        </labels>
+                        <control id="WebResource_new_1" classid="{9FDF5F91-88B1-47F4-AD53-C11EFC01A01D}">
+                          <parameters>
+                            <Url>og_case-custom-form-html</Url>
+                            <PassParameters>false</PassParameters>
+                            <Security>false</Security>
+                            <Scrolling>auto</Scrolling>
+                            <Border>false</Border>
+                            <ShowOnMobileClient>false</ShowOnMobileClient>
+                            <WebResourceId>{9a5a018a-3d38-ed11-9db0-000d3a5c26da}</WebResourceId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{dbde5a9e-c6e6-4e3c-adcc-247175d47742}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{f9ee5810-d7fd-41ba-a224-3de6aa4ee08e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b8814ca2-969c-4b58-8cb7-1cb9a4c8ae3a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{82f6e467-6783-4355-a7f2-554b51fd6469}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a373d64b-aaea-4831-ae87-59a21b901d03}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{61855ea0-d104-4897-b780-32655669c0ee}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{15af7c85-25ba-484b-aaf5-d36a119e1d53}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4a0a9a56-7137-4c35-a176-0580838f04cd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries>
+        <Library name="og_case-custom-form-javascript" libraryUniqueId="{79c6da55-f7db-4028-961b-5cbec0823e67}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="Sdk.formOnLoad" libraryName="og_case-custom-form-javascript" handlerUniqueId="{6e3bf6d1-453c-42db-a79a-2fd12024f926}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{77dba300-2078-523b-333c-0b0008ca6367}">
+          <customControl id="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>og_authoritydecision1</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="og_CaseManagementNamespace.LinearInputControl">
+            <parameters>
+              <controlValue>og_authoritydecision1</controlValue>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="og_CaseManagementNamespace.LinearInputControl">
+            <parameters>
+              <controlValue>og_authoritydecision1</controlValue>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="og_CaseManagementNamespace.LinearInputControl">
+            <parameters>
+              <controlValue>og_authoritydecision1</controlValue>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

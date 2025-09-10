@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0bd62baf-6789-49a6-a7fe-c958a97e1246}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{59938c6e-8c45-4a80-9853-d6567833b46e}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7009a506-e497-4e95-ad73-c14461f6492e}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{57b98bf5-7586-4c32-bc19-4243f4bbdeef}" colspan="2">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="og_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="og_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f59c3bfa-12fa-4df6-bd7d-2bc327fa9269}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Case" languagecode="1033" />
+                        </labels>
+                        <control id="og_case" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="og_case" disabled="false" />
+                      </cell>
+                      <cell id="{197ccd0c-7f20-4f35-b367-31d48ca5dcb0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Did a physical assault occur?" languagecode="1033" />
+                        </labels>
+                        <control id="og_didaphysicalassaultoccur" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="og_didaphysicalassaultoccur" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e59aa82-b073-450c-b730-ce4555c38e07}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Did a sexual assault occur?" languagecode="1033" />
+                        </labels>
+                        <control id="og_didasexualassaultoccur" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="og_didasexualassaultoccur" disabled="false" />
+                      </cell>
+                      <cell id="{73121cdf-d521-4741-bbf9-a33afc5a4884}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Did a strangulation occur?" languagecode="1033" />
+                        </labels>
+                        <control id="og_didastrangulationoccur" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="og_didastrangulationoccur" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3aba9e99-5ed7-49e7-8f60-696afb7178f1}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{98c85bbd-ea0b-4b2c-84bf-d657eae1d721}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Was medical attention needed?" languagecode="1033" />
+                        </labels>
+                        <control id="og_wasmedicalattentionneeded" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="og_wasmedicalattentionneeded" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{6dac6412-5cc2-4840-8c33-b4e6a26d81fa}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{228646da-60fb-43b8-bcda-a7aaf9deb69a}" locklevel="0" colspan="2" rowspan="1">
+                        <labels>
+                          <label description="If yes, describe" languagecode="1033" />
+                        </labels>
+                        <control id="og_ifyesdescribe" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_ifyesdescribe" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{9cb571d9-de1d-4ffe-b530-49c2cb79c6a0}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{47d12bc5-e429-4918-8823-0606c9b69f26}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{aca3e25e-2a6c-4637-b438-53c7a01da524}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c91c2fa4-82e4-488d-b101-e2693225b028}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{a881c9d2-c9cc-45f4-9fe8-3698286ad8ba}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7b041682-d304-4b5c-b6a8-3834b5e2fc78}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ad135fae-e6da-45c0-89db-14480581004e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{41051b8e-2f7e-4077-98b2-fc7e1b43e2fe}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

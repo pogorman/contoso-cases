@@ -1,0 +1,28 @@
+name: deploy-case-mgt-to-prod
+# Call the reusable workflow release-solution-with-inputs.yml
+# Release your solution to prod when you create a new release.
+
+on:
+  workflow_dispatch:
+    inputs:
+      # Change this value
+      solution_name:
+        description: 'name of the solution to worked on from Power Platform'
+        required: true
+        default: CaseManagement
+  release:
+      types: [created]        
+
+jobs:
+  Release-solution-ALMLab:
+    uses: ./.github/workflows/deploy-solution-reusable.yml
+    with:
+      #You can specify the solution name here
+      solution_name: CaseManagement
+      #Update your values here
+      BUILD_ENVIRONMENT_URL: 'https://org2b000359.crm.dynamics.com/'
+      PRODUCTION_ENVIRONMENT_URL: 'https://org0f719ffb.crm.dynamics.com/'
+      CLIENT_ID: '890c94d0-f73b-4318-83d1-cf831ec7f8e1'
+      TENANT_ID: '125ec668-dcca-47ba-9487-0304f441b3f1'     
+    secrets:
+      envSecret: ${{ secrets.PowerPlatformSPN }}
